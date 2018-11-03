@@ -81,5 +81,6 @@ app.use(
 );
 
 app.listen(PORT, () =>
+  /* eslint-disable-next-line */
   console.log(`Express GraphQL Server Now Running On localhost:${PORT}/graphql`)
 );
